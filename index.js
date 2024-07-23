@@ -6,7 +6,7 @@ const app = express();
 app.use(bodyParser.json());
 
 // Đặt token của Facebook Page và Verify Token của bạn ở đây
-const PAGE_ACCESS_TOKEN = 'YOUR_PAGE_ACCESS_TOKEN';
+const PAGE_ACCESS_TOKEN = 'EAAQ7Sv4Aok4BO4Vyg7ZAUu1yDxxlqb7CaDdqf1oWZBfLaY3G6XthoWcK5nUV9qEZC2KYxrQYAauxZBWsJGZAeEupNSVPNbpBVylgsEDFZAVBBTOAzo2jD1N3WZAeSpvRQw3tsMpaaeAbtok9fFi6V53DNFfApAiOprmu4CslpbMpyY3oxR0oZCj1P7jAaDbJiTvA07fPhy2nDWhpNm6kU5Lk3IOzvO3bmrcizl91ujjFZCU9ixlwzikZCiA6TUNCDiCQZDZD';
 const VERIFY_TOKEN = 'mvbot_token';
 
 // Thiết lập webhook
