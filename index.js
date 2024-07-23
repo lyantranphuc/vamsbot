@@ -7,7 +7,7 @@ app.use(bodyParser.json());
 
 // Đặt token của Facebook Page và Verify Token của bạn ở đây
 const PAGE_ACCESS_TOKEN = 'YOUR_PAGE_ACCESS_TOKEN';
-const VERIFY_TOKEN = 'YOUR_VERIFY_TOKEN';
+const VERIFY_TOKEN = 'mvbot_token';
 
 // Thiết lập webhook
 app.post('/webhook', (req, res) => {
